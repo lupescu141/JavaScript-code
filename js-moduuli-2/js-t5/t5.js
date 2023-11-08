@@ -7,7 +7,7 @@ while (!has_entered_duplicate){
 
     if (numbers.includes(number)){
         has_entered_duplicate = true;
-        alert("Number has already been given!")
+        document.getElementById("response").innerHTML = "Number has already been given!"
     }
     else {
         numbers.push(number);

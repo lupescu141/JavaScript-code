@@ -1,0 +1,11 @@
+let ul = document.getElementById("target");
+let li = document.createElement("li");
+li.appendChild(document.createTextNode("First item"));
+ul.appendChild(li);
+li = document.createElement("li");
+li.className = "my-item";
+li.appendChild(document.createTextNode("Second item"));
+ul.appendChild(li);
+li = document.createElement("li");
+li.appendChild(document.createTextNode("Third item"));
+ul.appendChild(li);
