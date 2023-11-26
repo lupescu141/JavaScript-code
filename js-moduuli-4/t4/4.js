@@ -8,7 +8,7 @@ show_form.addEventListener('submit', async function(event){
 
     try {
         const response = await fetch(`https://api.tvmaze.com/search/shows?q=${query}`);
-        let jsonData = await response.json();
+        const jsonData = await response.json();
 
         console.log(jsonData);
 
